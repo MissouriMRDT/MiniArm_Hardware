@@ -2,9 +2,416 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid ebb075bd-427b-4233-b984-4ab8b040b824)
+	(uuid "ebb075bd-427b-4233-b984-4ab8b040b824")
 	(paper "A4")
-	(lib_symbols)
+	(lib_symbols
+		(symbol "MRDT_ICs:AS5600-ASOT"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AS5600-ASOT_0_1"
+				(rectangle
+					(start -8.89 -2.54)
+					(end 8.89 -22.86)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "AS5600-ASOT_1_1"
+				(pin input line
+					(at -11.43 -5.08 0)
+					(length 2.54)
+					(name "VDD5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -11.43 -10.16 0)
+					(length 2.54)
+					(name "VDD3V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -11.43 -15.24 0)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -11.43 -20.32 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 11.43 -5.08 180)
+					(length 2.54)
+					(name "DIR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 11.43 -10.16 180)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 11.43 -15.24 180)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 11.43 -20.32 180)
+					(length 2.54)
+					(name "PGO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(no_connect
+		(at 151.13 93.98)
+		(uuid "150b48aa-2e6c-48b2-94e1-95126bb17fee")
+	)
+	(no_connect
+		(at 151.13 88.9)
+		(uuid "58abdcda-54be-4933-8f7f-2a890ba5266c")
+	)
+	(no_connect
+		(at 151.13 78.74)
+		(uuid "ad66a8db-57ae-4234-a283-1ffb680a8fca")
+	)
+	(no_connect
+		(at 151.13 83.82)
+		(uuid "ad780b3a-3e24-4650-985e-007b1a92cb4e")
+	)
+	(wire
+		(pts
+			(xy 107.95 78.74) (xy 128.27 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "524217b3-41da-4f36-b3c7-166260c30484")
+	)
+	(wire
+		(pts
+			(xy 107.95 93.98) (xy 128.27 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0fc28fa-7cdd-4e5e-921a-6dbde9c5dbee")
+	)
+	(wire
+		(pts
+			(xy 107.95 88.9) (xy 128.27 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef8a3771-4a7c-432a-832f-65ef2c5e1c74")
+	)
+	(global_label "PWM"
+		(shape input)
+		(at 107.95 88.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "124af404-a223-4bc8-a41a-11fcb987ed05")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 100.792 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 107.95 93.98 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4f49f2bf-21b3-41cc-bf2c-a1a745cb5b80")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 101.0943 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "5V"
+		(shape input)
+		(at 107.95 78.74 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7c44cd03-27e2-4db9-a228-5626f3eb1470")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 102.6667 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MRDT_ICs:AS5600-ASOT")
+		(at 139.7 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "79200487-de35-421d-9e34-8790a186a3ff")
+		(property "Reference" "U1"
+			(at 139.7 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 139.7 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "760b148a-e1b3-4e18-a272-aec64628e851")
+		)
+		(pin "6"
+			(uuid "3c006396-580c-4e0f-8855-418e629c2bbe")
+		)
+		(pin "1"
+			(uuid "64b95a19-bffd-47b5-9a73-3f1ae436bad2")
+		)
+		(pin "2"
+			(uuid "bf2c51b8-0cd1-4b3f-996e-268d789915e4")
+		)
+		(pin "4"
+			(uuid "79cd12f5-b824-4c40-8c2d-2d6bcaa64547")
+		)
+		(pin "8"
+			(uuid "345b24b5-104c-41cb-b0d6-f2b395b6bee9")
+		)
+		(pin "7"
+			(uuid "54c94329-ae99-4d1e-b14c-c1161c9601a0")
+		)
+		(pin "5"
+			(uuid "6e78a8a7-e801-4a35-8a94-70acd84b2378")
+		)
+		(instances
+			(project ""
+				(path "/ebb075bd-427b-4233-b984-4ab8b040b824"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
