@@ -230,6 +230,10 @@
 		(at 151.13 83.82)
 		(uuid "ad780b3a-3e24-4650-985e-007b1a92cb4e")
 	)
+	(no_connect
+		(at 128.27 83.82)
+		(uuid "e7caf5af-d83a-49d1-b31a-bd26b32d0be7")
+	)
 	(wire
 		(pts
 			(xy 107.95 78.74) (xy 128.27 78.74)
