@@ -366,87 +366,67 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 88.9) (xy 107.95 86.36)
+			(xy 116.84 93.98) (xy 116.84 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "067d530b-fd03-434d-9104-fd6ad0a61996")
+		(uuid "48a54e26-cf78-49e5-b6f5-b4d6b3154e2d")
 	)
 	(wire
 		(pts
-			(xy 107.95 78.74) (xy 107.95 83.82)
+			(xy 116.84 78.74) (xy 128.27 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "28fa67f1-81e1-4d28-9c10-9316ebce7e1a")
+		(uuid "7f5f23c4-67f3-4d28-866e-51cd7b07b5bb")
 	)
 	(wire
 		(pts
-			(xy 91.44 93.98) (xy 91.44 88.9)
+			(xy 116.84 81.28) (xy 118.11 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "36194e45-2545-4616-bcc4-65aec85576c7")
+		(uuid "86534c5f-7035-4583-93ac-c715c03f94ca")
 	)
 	(wire
 		(pts
-			(xy 128.27 93.98) (xy 91.44 93.98)
+			(xy 128.27 93.98) (xy 116.84 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6b99e237-98e1-4dfc-a19c-e9ac3b007804")
+		(uuid "ada3a427-6445-461b-b296-6a3c36f7e6d0")
 	)
 	(wire
 		(pts
-			(xy 107.95 86.36) (xy 91.44 86.36)
+			(xy 128.27 88.9) (xy 118.11 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7257e36b-a8db-453c-8316-6954c7fa1a7c")
+		(uuid "bec611b0-260d-4116-850a-5e447228f7cf")
 	)
 	(wire
 		(pts
-			(xy 107.95 83.82) (xy 91.44 83.82)
+			(xy 118.11 88.9) (xy 118.11 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a82434b4-4f9f-4ec1-9f5d-dbef66a6ead5")
-	)
-	(wire
-		(pts
-			(xy 128.27 78.74) (xy 107.95 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c014262e-c3a4-47ab-8e0c-3f8758394857")
-	)
-	(wire
-		(pts
-			(xy 128.27 88.9) (xy 107.95 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c67e15f0-5799-4502-89e0-f6169ffdcc78")
+		(uuid "e58d242e-2e01-4567-a28f-4e6f04404c0f")
 	)
 	(symbol
 		(lib_id "MRDT_Connectors:Molex_SL_03")
-		(at 86.36 82.55 180)
+		(at 111.76 77.47 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -455,7 +435,7 @@
 		(fields_autoplaced yes)
 		(uuid "294dd856-a456-4c7a-91d6-b24772506921")
 		(property "Reference" "Conn1"
-			(at 85.09 77.47 0)
+			(at 110.49 72.39 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -463,7 +443,7 @@
 			)
 		)
 		(property "Value" "Molex_SL_03"
-			(at 85.09 80.01 0)
+			(at 110.49 74.93 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -471,7 +451,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 86.36 82.55 0)
+			(at 111.76 77.47 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -480,7 +460,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 82.55 0)
+			(at 111.76 77.47 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -489,7 +469,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 86.36 82.55 0)
+			(at 111.76 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -550,7 +530,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://look.ams-osram.com/m/7059eac7531a86fd/original/AS5600-DS000365.pdf"
 			(at 139.7 73.66 0)
 			(effects
 				(font
