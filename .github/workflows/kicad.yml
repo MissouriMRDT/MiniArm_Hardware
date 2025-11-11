@@ -11,6 +11,3 @@ jobs:
         with:
             project-name: 'absolute_encoder_breakout'
             board-path: './absolute_encoder_breakout'
-
-env:
-    ACTIONS_RUNNER_DEBUG: true
