@@ -4,10 +4,10 @@ jobs:
     kicad-generate-main-board:
         uses: MissouriMRDT/KiCAD_Reuse_Actions/.github/workflows/kicad.yml@development
         with:
-            project-name: "Main_Board"
+            project-name: 'Main_Board'
 
     kicad-generate-encoder-breakout:
         uses: MissouriMRDT/KiCAD_Reuse_Actions/.github/workflows/kicad.yml@development
         with:
-            project-name: "absolute_encoder_breakout"
-            board_path: "absolute_encoder_breakout"
+            project-name: 'absolute_encoder_breakout'
+            board_path: 'absolute_encoder_breakout'
