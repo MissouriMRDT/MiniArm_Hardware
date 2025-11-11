@@ -4,4 +4,10 @@ jobs:
     kicad-generate:
         uses: MissouriMRDT/KiCAD_Reuse_Actions/.github/workflows/kicad.yml@development
         with:
-            project-name: "MiniArmBoard"
+            project-name: "Main_Board"
+
+    kicad-generate:
+        uses: MissouriMRDT/KiCAD_Reuse_Actions/.github/workflows/kicad.yml@development
+        with:
+            project-name: "absolute_encoder_breakout"
+            board_path: "absolute_encoder_breakout"
