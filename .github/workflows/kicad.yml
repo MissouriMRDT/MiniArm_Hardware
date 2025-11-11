@@ -10,7 +10,7 @@ jobs:
         uses: MissouriMRDT/KiCAD_Reuse_Actions/.github/workflows/kicad.yml@development
         with:
             project-name: 'absolute_encoder_breakout'
-            board-path: 'absolute_encoder_breakout'
+            board-path: './absolute_encoder_breakout'
 
 env:
     ACTIONS_RUNNER_DEBUG: true
