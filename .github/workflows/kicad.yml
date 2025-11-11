@@ -1,12 +1,12 @@
 on: [push]
 
 jobs:
-    kicad-generate:
+    kicad-generate-main-board:
         uses: MissouriMRDT/KiCAD_Reuse_Actions/.github/workflows/kicad.yml@development
         with:
             project-name: "Main_Board"
 
-    kicad-generate:
+    kicad-generate-encoder-breakout:
         uses: MissouriMRDT/KiCAD_Reuse_Actions/.github/workflows/kicad.yml@development
         with:
             project-name: "absolute_encoder_breakout"
