@@ -504,7 +504,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "absolute_encoder_breakout.step",
       "svg": "",
       "vrml": ""
     },
